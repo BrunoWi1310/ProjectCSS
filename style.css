@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(206, 206, 206);
+    font-family: sans-serif;
+}
+
+
+
+
+header{
+    background-image: url(imagens/bg-3.jpg);
+    /*padding: 150px; */
+    background-attachment:scroll;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    margin: 0;
+    height: 450px;
+}
+
+ul{
+    text-align: right;
+    list-style-type: none;
+    position: flex;
+    padding: 10px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0;
+    color: black;
+    margin: 10px;
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+ul a{
+    display: inline-block;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 7px;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-shadow:black 0.1em 0.1em 0.2em; ;
+}
+
+ul a:hover{
+    text-decoration: none;
+    background-color: rgba(20,20,20,0.5);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 65px;
+    box-shadow: black;
+    height: 50px;
+}
+
+.subtitulo{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    background-color: rgba(20, 20, 20, 0.5);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin: 25px 390px 25px 390px;
+    border-bottom: solid white 2px;
+    
+}
+
+.HTML{
+    padding-top:5px;
+    margin: 20px 50px 20px 50px;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.CSS{
+    padding-top:5px;
+    margin: 20px 50px 20px 50px;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.JS{
+    padding-top:5px;
+    margin: 20px 50px 20px 50px;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+h2{
+    margin: 10px 10px 10px 10px;
+    border-bottom: solid rgb(180, 178, 178);
+    background-color: rgb(240, 229, 229);
+    padding-bottom: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.saiba{
+    background-color: rgb(190, 190, 190);
+    margin: 0 1000px 0 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+footer{
+    padding: 15px 2px 2px 2px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
